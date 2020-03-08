@@ -1,0 +1,13 @@
+mvnw and mvnw.cmd — These are Maven wrapper scripts. 
+You can use these scripts to build your project even if you don’t have Maven installed on your machine.
+
+pom.xml—This is the Maven build specification. 
+
+BookingApplication.java—
+This is the Spring Boot main class that bootstraps the project.
+
+application.properties—
+This file is initially empty, but offers a place where you can specify configuration properties. 
+
+BookingApplicationTests.java—This is a simple test class that ensures that the Spring application context loads successfully. 
+You’ll add more tests to the mix as you develop the application.
