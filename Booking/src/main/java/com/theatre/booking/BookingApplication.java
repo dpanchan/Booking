@@ -15,8 +15,8 @@ public class BookingApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		// Show time display
-		//Book time and seat number with quantity
+
+		
 		
 		
 		

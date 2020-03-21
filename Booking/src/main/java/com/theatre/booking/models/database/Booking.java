@@ -9,9 +9,8 @@ import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 @Data
-@RequiredArgsConstructor
 @Entity(name = "booking")
-public class BookingDB {
+public class Booking {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
@@ -20,8 +19,10 @@ public class BookingDB {
 	private String userName;
 	private String movieName;
 	private int noOfSeats;
+	public static enum MovieType{
+		Drama,Classic,Comedy,Action,Horror
+	}
 	
-//	public static enum MovieType{
-//		Drama,Classic,Comedy,Action,Horror
-//	}
+	
+	
 }
